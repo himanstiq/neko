@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* Optional: Add custom theme configuration */
+
+@theme {
+  --color-primary: #2563eb;
+  --color-secondary: #1e40af;
+}
+
+.mirror {
+  transform: scaleX(-1);
+}
